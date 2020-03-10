@@ -1,0 +1,32 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+.text-center {
+  text-align: center;
+}
+.labels {
+  width: 300px; margin: auto;
+}
+.labels .label {
+  width: 30%; display: inline-block;
+}
+.bottom-info {
+  width: 240px; margin: auto;
+}
+.bottom-info .level-info {
+  width: 49%; display: inline-block; text-align: left
+}
+.bottom-info .pause-btn {
+  width: 49%; display: inline-block; text-align: right
+}
+canvas {
+  border: solid 3px black;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+body {
+  background-image: url("../images/bg.jpg");
+}

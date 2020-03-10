@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Snake Game | By: Rodrigo Lima</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container text-center">
+    <h1>Snake Game</h1>
+    <div class="labels">
+      <div class="label">
+        <p>
+          <b>Record:</b> 
+          <div id="record">0</div>
+        </p>
+      </div>
+      <div class="label">
+        <p>
+          <b>Last Score:</b> 
+          <div id="pontoAnterior">0</div>
+        </p>
+      </div>
+      <div class="label">
+        <p>
+          <b>Score:</b> 
+          <div id="pontos">0</div>
+        </p>
+      </div>
+    </div>
+    <canvas id="cenario" width="240" height="400"></canvas>
+    <br>
+    <div class="bottom-info">
+      <div class="level-info">
+        <p><b><span id="level"></span></b></p>
+      </div>
+      <div class="pause-btn">
+        <button onclick="pausar()">Pause</button>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
