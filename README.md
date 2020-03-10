@@ -10,7 +10,7 @@ Play right now: [click here](https://rodrilima.github.io/js-snake-game/)
 
 ### How to Play
 
-- Use the arrow keys to move the snake.
+- Use the arrow keys or drag the screen to move the snake
 - Collect the red balls to get points
 - If you touch the snake’s tail, the game starts again
 - You can go around the edges of the scene. The snake will come out the other way.
@@ -38,7 +38,6 @@ $ git clone https://github.com/rodrilima/js-snake-game.git
 ### Running
 
 Just open index.html in your browser and play.
-
 
 ## Built With
 

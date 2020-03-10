@@ -1,24 +1,45 @@
+body,
 .container {
-  width: 90%;
+  width: 100%;
   margin: auto;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  overflow-y: hidden;
+  overscroll-behavior: none;
+}
+
+body {
+  z-index: 1;
+}
+
+.container {
+  z-index: 2;
 }
 .text-center {
   text-align: center;
 }
 .labels {
-  width: 300px; margin: auto;
+  width: 300px;
+  margin: auto;
 }
 .labels .label {
-  width: 30%; display: inline-block;
+  width: 30%;
+  display: inline-block;
 }
 .bottom-info {
-  width: 240px; margin: auto;
+  width: 240px;
+  margin: auto;
 }
 .bottom-info .level-info {
-  width: 49%; display: inline-block; text-align: left
+  width: 49%;
+  display: inline-block;
+  text-align: left;
 }
 .bottom-info .pause-btn {
-  width: 49%; display: inline-block; text-align: right
+  width: 49%;
+  display: inline-block;
+  text-align: right;
 }
 canvas {
   border: solid 3px black;
