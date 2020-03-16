@@ -21,7 +21,7 @@ Play right now: [click here](https://rodrilima.github.io/js-snake-game/)
 
 Snake Game created only with html, css and javascript inspired by the old mobile games.
 
-This project is part of my personal portfolio, so, I'll be happy if you could provide me any feedback about the project, code, structure or anything that you can report that could make me a better developer!
+This project is part of my personal portfolio. If it is useful in any project or for studies, feel free to copy. If you have tips on how I can improve the code or have a job proposal for me, I'll be happy if you can contact me.
 
 Email-me: limamdw@gmail.com
 
